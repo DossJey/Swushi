@@ -1,0 +1,28 @@
+@media (max-width:480px){
+
+
+    .btn{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+    .food{
+        width: 230px;
+        height: 230px;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+    }
+
+}
+
+@media (max-width:811px){
+
+
+
+    .food{
+        width: 300px;
+        height: 300px;
+    }
+
+}

@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.prod-list{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Boogaloo, "Serif";
+    color: #C9AB82;
+    width: 75%;
+    margin: auto;
+}
+.single-prod{
+
+    font-family: Boogaloo, "Serif";
+    color: #C9AB82;
+    display:flex;
+    flex-direction:row;
+    background-color: black;
+    align-content:center;
+    place-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #C9AB82;
+    font-size: 20px;
+
+}
+img{
+    object-fit: cover;
+
+}
+.informazioni{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.totale{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-family: Boogaloo, "Serif";
+    color: #C9AB82;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.acquista{
+    font-family: Boogaloo, "Serif";
+    font-weight: bold;
+    color: black;
+    background-color: #C9AB82;
+    width: 150px;
+    padding:15px;
+    margin:10px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* Media  queries */
+
+@media(max-width:480px){
+
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    p{
+        font-size: 15px;
+    }
+
+}

@@ -1,0 +1,136 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.register{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    font-family: Boogaloo, "Serif";
+    overflow: hidden;
+    position:relative;
+    place-items: center;
+}
+
+.register-form{
+
+    background-color: black;
+    color: #C9AB82;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    text-align: center;
+    border-radius: 15px;
+    width: 15%;
+    border: 2px solid #C9AB82;
+    position: absolute;
+    height: 70%;
+
+
+}
+
+
+#username,#password,#nome,#cognome,#indirizzo,#register-btn,#email{
+
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: Boogaloo, "Serif";
+
+}
+
+#register-btn{
+    background-color: #C9AB82;
+}
+
+.img-register{
+    object-fit : cover;
+    object-position: center;
+    filter: blur(2px);
+    left: 30px;
+    width: 800px;
+    height: 800px;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 360px){
+
+
+    .img-register{
+
+        width: 100%;
+    }
+    .register-form{
+        width: 150px;
+        position: absolute;
+
+
+
+
+
+    }
+    #nome,#cognome,#email,#username,#password,#indirizzo,#register-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+}
+
+@media screen and (min-width: 810px){
+
+    .img-register{
+
+        width: 800px;
+        height: 800px;
+
+    }
+    .register-form{
+        position: absolute;
+        height: 90%;
+        width: 20%;
+
+    }
+    #nome,#cognome,#email,#username,#password,#indirizzo,#register-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1035px){
+
+    .img-register{
+
+        width: 800px;
+        height: 800px;
+
+    }
+    .register-form{
+        position: absolute;
+        height: 90%;
+        width: 200px;
+        flex: 30%;
+
+    }
+    #nome,#cognome,#email,#username,#password,#indirizzo,#register-btn{
+        width: 100px;
+        height: 40px;
+    }
+
+}
+
+@media screen and(min-width: 1370px){
+    .register-form{
+        position: absolute;
+        height: 90%;
+        width: 200px;
+
+    }
+}
+
+

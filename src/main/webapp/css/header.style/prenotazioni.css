@@ -1,0 +1,44 @@
+@media screen and (min-width: 360px){
+
+
+    .single-prod{
+
+        justify-content: space-evenly;
+
+    }
+
+    .informazioni{
+
+
+
+        width: 100px;
+        margin-left: 50px;
+        flex-direction: column;
+    }
+    p{
+        font-size: 15px;
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 810px){
+
+    .informazioni{
+
+
+        flex-direction: column;
+    }
+    p{
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 810px){
+
+
+    p{
+        font-size: 20px;
+    }
+
+}
